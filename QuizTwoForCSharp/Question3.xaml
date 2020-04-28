@@ -1,0 +1,21 @@
+﻿<Window x:Class="QuizTwoForCSharp.Question3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizTwoForCSharp"
+        mc:Ignorable="d"
+        Title="Question3" Height="450" Width="450">
+    <Grid>
+        <TabControl>
+            <TabItem Header="TabItemOne">
+                <Grid Background="#FFE5E5E5">
+                    <CheckBox x:Name="cbIsVisible" Content="isVisible" HorizontalAlignment="Left" Margin="58,42,0,0" VerticalAlignment="Top" Checked="cbIsVisible_Checked" Unchecked="cbIsVisible_Unchecked" />
+                </Grid>
+            </TabItem>
+            <TabItem Name="tiTabItemTwo" Header="TabItemTwo" Visibility="Collapsed">
+                <Grid Background="#FFE5E5E5" />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

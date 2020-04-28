@@ -1,0 +1,16 @@
+﻿<Window x:Class="QuizTwoForCSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizTwoForCSharp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btQuestion1" Click="btQuestion1_Click" Content="Question1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,63,0,0" />
+        <Button x:Name="btQuestion2" Click="btQuestion2_Click" Content="Question2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,109,0,0" />
+        <Button x:Name="btQuestion3" Click="btQuestion3_Click" Content="Question3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,151,0,0" />
+        <Button x:Name="btQuestion4" Click="btQuestion4_Click" Content="Question4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,189,0,0" />
+        <Button x:Name="btQuestion5" Click="btQuestion5_Click" Content="Question5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,227,0,0" />
+    </Grid>
+</Window>
