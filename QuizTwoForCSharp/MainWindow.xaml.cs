@@ -47,6 +47,7 @@ namespace QuizTwoForCSharp
 
         private void btQuestion5_Click(object sender, RoutedEventArgs e)
         {
+            new Question5().Show();
         }
     }
 }
