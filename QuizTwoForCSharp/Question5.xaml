@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="Question5" Height="450" Width="450">
     <Grid>
-        <Button x:Name="btAdd" Click="btAdd_Click" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="37,344,0,0" />
-        <TreeView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="btAdd" Click="btAdd_Click" Background="Red" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="37,344,0,0" />
+        <TreeView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
+            <TreeViewItem Header="Even Number">
+            </TreeViewItem>
+            <TreeViewItem Header="Odd Number">
+            </TreeViewItem>
+        </TreeView>
     </Grid>
 </Window>

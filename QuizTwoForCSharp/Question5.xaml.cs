@@ -26,6 +26,14 @@ namespace QuizTwoForCSharp
 
         private void btAdd_Click(object sender, RoutedEventArgs e)
         {
+            if (btAdd.Background == Brushes.Red)
+            {
+                btAdd.Background = Brushes.Blue;
+            }
+            else
+            {
+                btAdd.Background = Brushes.Red;
+            }
         }
     }
 }
