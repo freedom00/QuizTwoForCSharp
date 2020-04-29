@@ -19,6 +19,10 @@ namespace QuizTwoForCSharp
     /// </summary>
     public partial class Question5 : Window
     {
+        private static int count = 1;
+        private static int evenCount = 1;
+        private static int oddCount = 1;
+
         public Question5()
         {
             InitializeComponent();
@@ -34,6 +38,15 @@ namespace QuizTwoForCSharp
             {
                 btAdd.Background = Brushes.Red;
             }
+            if (0 == count % 2)
+            {
+                tvEvenNumber.Header = evenCount++;
+            }
+            else
+            {
+                tvOddNumber.Header = oddCount++;
+            }
+            count++;
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizTwoForCSharp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="450">
     <Grid>
         <Button x:Name="btQuestion1" Click="btQuestion1_Click" Content="Question1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,63,0,0" />
         <Button x:Name="btQuestion2" Click="btQuestion2_Click" Content="Question2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="74,109,0,0" />
