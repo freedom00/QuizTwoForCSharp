@@ -10,10 +10,10 @@
         <Button x:Name="btAdd" Click="btAdd_Click" Background="Red" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="37,344,0,0" />
         <TreeView HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
             <TreeViewItem Header="Even Number">
-                <TreeViewItem  Name="tvEvenNumber" Header="0" />
+                <TreeViewItem  Name="tvEvenNumber" Header="" />
             </TreeViewItem>
             <TreeViewItem Header="Odd Number">
-                <TreeViewItem  Name="tvOddNumber" Header="0" />
+                <TreeViewItem  Name="tvOddNumber" Header="" />
             </TreeViewItem>
         </TreeView>
     </Grid>

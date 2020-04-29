@@ -20,8 +20,8 @@ namespace QuizTwoForCSharp
     public partial class Question5 : Window
     {
         private static int count = 1;
-        private static int evenCount = 1;
-        private static int oddCount = 1;
+        //private static int evenCount = 1;
+        //private static int oddCount = 1;
 
         public Question5()
         {
@@ -40,13 +40,17 @@ namespace QuizTwoForCSharp
             }
             if (0 == count % 2)
             {
-                tvEvenNumber.Header = evenCount++;
+                //tvEvenNumber.Header = evenCount++;
+                tvEvenNumber.Header = count++;
+                tvOddNumber.Header = "";
             }
             else
             {
-                tvOddNumber.Header = oddCount++;
+                //tvOddNumber.Header = oddCount++;
+                tvOddNumber.Header = count++;
+                tvEvenNumber.Header = "";
             }
-            count++;
+            //count++;
         }
     }
 }
