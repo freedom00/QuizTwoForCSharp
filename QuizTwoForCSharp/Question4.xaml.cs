@@ -20,7 +20,6 @@ namespace QuizTwoForCSharp
     public partial class Question4 : Window
     {
         private List<Student> listStudnts;
-        private List<Student> listAddedStudents;
 
         public Question4()
         {
@@ -41,7 +40,7 @@ namespace QuizTwoForCSharp
                 tbId.Text = "";
                 return;
             }
-            if (id < 1 || id > 5)
+            if (id < 1 || id > listStudnts.Count)
             {
                 MessageBox.Show(this, "User is not in the list", "Operation Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 tbId.Text = "";
